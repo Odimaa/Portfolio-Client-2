@@ -39,7 +39,9 @@
 html {
 font-family: 'Capriola', sans-serif;  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+  scroll-behavior: smooth;
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -9989,3 +9991,99 @@ textarea.form-control {
     background: #1977cc;
   }
 }
+
+
+.ftco-mark li {
+  list-style: none;
+ }
+  .ftco-mark i {
+    
+  color: greenyellow }
+    .ftco-mark li a span {
+      position: absolute;
+      font-size: 20px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .ftco-mark li a:hover {
+      color: #fff; }
+
+      
+.pricing__item {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 22px;
+	background: #ffffff;
+	padding-left: 20px;
+	padding-right: 20px;
+	-webkit-box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.1);
+	box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.1);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-bottom: 40px;
+}
+
+.pricing__item:hover {
+	-webkit-box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+	box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+}
+
+.pricing__item:hover h3 {
+	background: #4c57d6;
+}
+
+.pricing__item:hover .primary-btn {
+	background: #4c57d6;
+	color: #ffffff;
+}
+
+.pricing__item h4 {
+	color: #111111;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.pricing__item h3 {
+	background: #120851;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 24px 0 20px;
+	margin-bottom: 26px;
+	margin-left: -30px;
+	border-radius: 10px;
+	margin-right: -30px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.pricing__item h3 span {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.pricing__item ul {
+	margin-bottom: 26px;
+}
+
+.pricing__item ul li {
+	font-size: 14px;
+	color: #444444;
+	line-height: 40px;
+  border-bottom: 1px solid;
+	list-style: none;
+}
+
+.pricing__item .primary-btn {
+	color: #111111;
+	background: #f2f2f2;
+	display: block;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	padding: 14px 0 12px;
+}
+ 
